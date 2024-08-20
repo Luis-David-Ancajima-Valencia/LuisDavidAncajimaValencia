@@ -36,3 +36,4 @@ D:\Proyectos de Prueba\LuisDavidAncajimaValencia\LuisDavidAncajimaValencia\obj\D
 D:\Proyectos de Prueba\LuisDavidAncajimaValencia\LuisDavidAncajimaValencia\obj\Debug\net8.0\LuisDavidAncajimaValencia.pdb
 D:\Proyectos de Prueba\LuisDavidAncajimaValencia\LuisDavidAncajimaValencia\obj\Debug\net8.0\LuisDavidAncajimaValencia.genruntimeconfig.cache
 D:\Proyectos de Prueba\LuisDavidAncajimaValencia\LuisDavidAncajimaValencia\obj\Debug\net8.0\ref\LuisDavidAncajimaValencia.dll
+D:\Proyectos de Prueba\LuisDavidAncajimaValencia\LuisDavidAncajimaValencia\obj\Debug\net8.0\LuisDavidAncajimaValencia.sourcelink.json

@@ -94,7 +94,6 @@ export class HijoComponent {
       this.hijoServicio.crear(objeto).subscribe({
         next:(data) =>{
           if(data.isSuccess){
-            //this.router.navigate(["/"]);
             this.dialogRef.close("Registar");
           }else{
             alert("Error al crear")
@@ -109,7 +108,6 @@ export class HijoComponent {
         next:(data) =>{
           if(data.isSuccess){
             this.dialogRef.close("Editar");
-            //this.router.navigate(["/"]);
           }else{
             alert("Error al editar")
           }
@@ -125,7 +123,6 @@ export class HijoComponent {
 
   volver(){
     this.dialogRef.close();
-    //this.router.navigate(["/"]);
   }
   
 }

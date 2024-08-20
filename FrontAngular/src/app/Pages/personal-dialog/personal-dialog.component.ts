@@ -31,8 +31,7 @@ export class PersonalDialogComponent {
 
   readonly dialogRef = inject(MatDialogRef<PersonalDialogComponent>);
   readonly data = inject<Personal>(MAT_DIALOG_DATA);
-  //idPersonal! : number;
-  
+
   nombreDialog :string = "Registrar";
   private personalServicio = inject(PersonalService);
   public formBuild = inject(FormBuilder);
@@ -95,7 +94,6 @@ export class PersonalDialogComponent {
       this.personalServicio.crear(objeto).subscribe({
         next:(data) =>{
           if(data.isSuccess){
-            //this.router.navigate(["/"]);
             this.dialogRef.close("Registar");
           }else{
             alert("Error al crear")
@@ -110,7 +108,6 @@ export class PersonalDialogComponent {
         next:(data) =>{
           if(data.isSuccess){
             this.dialogRef.close("Editar");
-            //this.router.navigate(["/"]);
           }else{
             alert("Error al editar")
           }
@@ -126,7 +123,6 @@ export class PersonalDialogComponent {
 
   volver(){
     this.dialogRef.close();
-    //this.router.navigate(["/"]);
   }
 
 

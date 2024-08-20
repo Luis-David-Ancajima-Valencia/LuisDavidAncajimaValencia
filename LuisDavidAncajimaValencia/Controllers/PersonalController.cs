@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 
-
 namespace LuisDavidAncajimaValencia.Controllers
 {
     [Route("api/[controller]")]
@@ -25,15 +24,12 @@ namespace LuisDavidAncajimaValencia.Controllers
             return StatusCode(StatusCodes.Status200OK,Lista);
         }
 
-
         [HttpGet("{id}")]
         public async Task<IActionResult> Obtener(int id)
         {
             Personal objeto = await _personalData.ObternerPersonal(id);
             return StatusCode(StatusCodes.Status200OK, objeto);
         }
-
-
 
         [HttpPost]
         public async Task<IActionResult> Crear([FromBody] Personal objeto)

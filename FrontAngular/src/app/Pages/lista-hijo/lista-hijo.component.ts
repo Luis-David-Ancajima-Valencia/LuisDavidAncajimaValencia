@@ -55,35 +55,29 @@ export class ListaHijoComponent implements OnInit{
 
   
 
-  constructor(private router:Router){
-    //this.obtenerHijo();
-  }
+  constructor(private router:Router){ }
 
   ngOnInit(): void {
     this.obtenerHijo();
   }
 
   nuevo(){
-    //this.router.navigate(['/hijo',this.idPersonal]);
+  
     this.openDialog(0);
   }
 
   editar(objeto:Hijo){
-    console.log(objeto.idPersonal);
-   // this.router.navigate(['/hijo',objeto.idHijo]);
    this.openDialog(objeto.idHijo);
-
   }
 
   eliminar(objeto:Hijo){
     if(confirm("Desea eliminar el Hijo: " + objeto.nombre1 +" "+objeto.nombre2+" "+objeto.apPaterno+" "+objeto.apMaterno)){
       this.hijoService.eliminar(objeto.idHijo).subscribe({
         next:(data)=>{
-         if(data.isSuccess){
+         if(data.isSuccess)
           this.obtenerHijo();
-         }else{
+         else
           alert("No se pudo eliminar");
-         }
         },
         error:(err)=>{
           console.log(err.message)
@@ -97,7 +91,6 @@ export class ListaHijoComponent implements OnInit{
   }
 
   openDialog(id?:number): void {
-    //animal: this.animal()},
     const dialogRef = this.dialog.open(HijoComponent, {
       data: {
         idHijo: id,
@@ -109,7 +102,6 @@ export class ListaHijoComponent implements OnInit{
 
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
-      //this.obtenerPersonal();
       if (result !== undefined) {
         console.log(result);
         this.obtenerHijo();

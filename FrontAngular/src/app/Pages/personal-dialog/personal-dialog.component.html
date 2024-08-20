@@ -1,4 +1,4 @@
-<h2 mat-dialog-title> {{nombreDialog}} Personal</h2>
+<h2 mat-dialog-title> {{nombreDialog}} Trabajador</h2>
 <mat-dialog-content>
     <div class="mat-elevation-z2" style="width: 80%; padding: 30px; margin: 50px auto; display: flex;justify-content: center;">
         <form [formGroup]="formPersonal" >
@@ -50,11 +50,6 @@
                     <input matInput  formControlName="fechaIngreso">
                   </mat-form-field>
             </div>
-    
-            <!--<div class="flex">
-                <button mat-flat-button color="primary" (click)="guardar()">Guardar</button>
-                <button mat-flat-button color="warn" (click)="volver()" style="margin-left: 8px;">Volver</button>
-            </div>-->
             <mat-dialog-actions>
                 <button mat-flat-button color="primary" (click)="guardar()">Guardar</button>
                 <button mat-flat-button color="warn" (click)="volver()" style="margin-left: 8px;">Volver</button>

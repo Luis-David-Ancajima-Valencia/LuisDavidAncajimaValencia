@@ -21,7 +21,6 @@ export class HijoService {
   listarPorPersonal(idPersonal: number){
     console.log("idPer",idPersonal);
     return this.http.get<Hijo[]>(`${this.apiUrl}/${idPersonal}`);
-    //return this.http.post<Hijo[]>(this.apiUrl,idPersonal);
   }
 
   obtener(id:number){

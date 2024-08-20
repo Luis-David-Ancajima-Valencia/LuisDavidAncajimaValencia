@@ -7,18 +7,24 @@ import { MatButtonModule } from '@angular/material/button';
 import { PersonalService } from '../../Services/personal.service';
 import { Personal } from '../../Models/Personal';
 import { Router } from '@angular/router';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogActions, MatDialogClose, MatDialogContent, MatDialogTitle } from '@angular/material/dialog';
-import { PersonalComponent } from '../personal/personal.component';
+import { MatDialog } from '@angular/material/dialog';
 import { PersonalDialogComponent } from '../personal-dialog/personal-dialog.component';
+import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatOption, MatSelect } from '@angular/material/select';
 
 @Component({
   selector: 'app-inicio',
   standalone: true,
   imports: [
     MatCardModule,
+    MatFormFieldModule,
     MatTableModule,
     MatIconModule,
     MatButtonModule,
+    ReactiveFormsModule,
+    MatSelect,
+    MatOption
   ],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
@@ -29,6 +35,8 @@ export class InicioComponent {
   public listaPersonal:Personal[] = [];
   public displayedColumns:string[] = ['Nro','Nombres','Apellidos','TipoDoc' ,'NumeroDoc','FechaNac','FechaIngreso','Acciones','VerHijos'];
   readonly dialog = inject(MatDialog);
+
+  public formBuild = inject(FormBuilder);
 
   obtenerPersonal(){
     this.personalService.lista().subscribe({
@@ -49,13 +57,10 @@ export class InicioComponent {
   }
 
   nuevo(){
-    //this.router.navigate(['/personal',0]);
     this.openDialog(0);
   }
 
   editar(objeto:Personal){
-    console.log(objeto.idPersonal);
-    //this.router.navigate(['/personal',objeto.idPersonal]);
     this.openDialog(objeto.idPersonal);
 
   }
@@ -83,7 +88,6 @@ export class InicioComponent {
   }
 
   openDialog(id?:number): void {
-    //animal: this.animal()},
     const dialogRef = this.dialog.open(PersonalDialogComponent, {
       data: {idPersonal: id},
       height: '90%',
@@ -91,8 +95,6 @@ export class InicioComponent {
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-      //this.obtenerPersonal();
       if (result !== undefined) {
         console.log(result);
         this.obtenerPersonal();
@@ -104,4 +106,6 @@ export class InicioComponent {
       }
     });
   }
+
+  
 }

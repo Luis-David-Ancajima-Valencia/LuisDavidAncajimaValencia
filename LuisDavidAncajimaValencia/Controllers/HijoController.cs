@@ -23,13 +23,6 @@ namespace LuisDavidAncajimaValencia.Controllers
             return StatusCode(StatusCodes.Status200OK, Lista);
         }
 
-        /*[HttpPost]
-        public async Task<IActionResult> ListarPorPersonal(int idPersonal)
-        {
-            List<Hijo> Lista = await _hijoData.ListaPorPersonal(idPersonal);
-            return StatusCode(StatusCodes.Status200OK, Lista);
-        }*/
-
         [HttpGet("{id}")]
         public async Task<IActionResult> Obtener(int id)
         {

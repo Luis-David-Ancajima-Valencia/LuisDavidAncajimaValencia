@@ -3,38 +3,6 @@
   "WorkspaceRootPath": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\controllers\\hijocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\controllers\\hijocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\data\\hijodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\data\\hijodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\controllers\\personalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\controllers\\personalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\data\\personaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\data\\personaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\models\\hijo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\models\\hijo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\models\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\models\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|d:\\proyectos de prueba\\luisdavidancajimavalencia\\luisdavidancajimavalencia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F5207C86-DCCD-42A7-B78C-5492A6D5362E}|LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia.csproj|solutionrelative:luisdavidancajimavalencia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -46,110 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonalData.cs",
-              "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Data\\PersonalData.cs",
-              "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\Data\\PersonalData.cs",
-              "ToolTip": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Data\\PersonalData.cs",
-              "RelativeToolTip": "LuisDavidAncajimaValencia\\Data\\PersonalData.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAgwBAAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T03:37:22.11Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HijoController.cs",
-              "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Controllers\\HijoController.cs",
-              "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\Controllers\\HijoController.cs",
-              "ToolTip": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Controllers\\HijoController.cs",
-              "RelativeToolTip": "LuisDavidAncajimaValencia\\Controllers\\HijoController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAD4vyUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T03:26:05.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HijoData.cs",
-              "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Data\\HijoData.cs",
-              "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\Data\\HijoData.cs",
-              "ToolTip": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Data\\HijoData.cs",
-              "RelativeToolTip": "LuisDavidAncajimaValencia\\Data\\HijoData.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAtwC0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T03:05:47.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "LuisDavidAncajimaValencia\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T00:28:31.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonalController.cs",
-              "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Controllers\\PersonalController.cs",
-              "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\Controllers\\PersonalController.cs",
-              "ToolTip": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Controllers\\PersonalController.cs",
-              "RelativeToolTip": "LuisDavidAncajimaValencia\\Controllers\\PersonalController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T18:55:15.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Hijo.cs",
-              "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Models\\Hijo.cs",
-              "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\Models\\Hijo.cs",
-              "ToolTip": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Models\\Hijo.cs",
-              "RelativeToolTip": "LuisDavidAncajimaValencia\\Models\\Hijo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T01:09:16.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Program.cs",
-              "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\Program.cs",
-              "ToolTip": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Program.cs",
-              "RelativeToolTip": "LuisDavidAncajimaValencia\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T02:05:16.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Personal.cs",
-              "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Models\\Personal.cs",
-              "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\Models\\Personal.cs",
-              "ToolTip": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\Models\\Personal.cs",
-              "RelativeToolTip": "LuisDavidAncajimaValencia\\Models\\Personal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T03:38:23.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Proyectos de Prueba\\LuisDavidAncajimaValencia\\LuisDavidAncajimaValencia\\appsettings.json",
               "RelativeDocumentMoniker": "LuisDavidAncajimaValencia\\appsettings.json",
@@ -157,7 +26,8 @@
               "RelativeToolTip": "LuisDavidAncajimaValencia\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-18T01:20:18.449Z"
+              "WhenOpened": "2024-08-18T01:20:18.449Z",
+              "EditorCaption": ""
             }
           ]
         }
