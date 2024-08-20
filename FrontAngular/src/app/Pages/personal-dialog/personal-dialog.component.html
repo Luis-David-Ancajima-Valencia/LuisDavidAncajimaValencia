@@ -1,0 +1,66 @@
+<h2 mat-dialog-title> {{nombreDialog}} Personal</h2>
+<mat-dialog-content>
+    <div class="mat-elevation-z2" style="width: 80%; padding: 30px; margin: 50px auto; display: flex;justify-content: center;">
+        <form [formGroup]="formPersonal" >
+            <div class="flex">
+                <mat-form-field>
+                    <mat-label>Primer Nombre </mat-label>
+                    <input matInput  formControlName="nombre1">
+                </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field>
+                    <mat-label>Segundo Nombre </mat-label>
+                    <input matInput  formControlName="nombre2">
+                  </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field>
+                    <mat-label>Apellido Paterno</mat-label>
+                    <input matInput  formControlName="apPaterno">
+                  </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field>
+                    <mat-label>Apellido Materno</mat-label>
+                    <input matInput  formControlName="apMaterno">
+                  </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field>
+                    <mat-label>Tipo de Documento</mat-label>
+                    <input matInput  formControlName="tipoDoc">
+                  </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field>
+                    <mat-label>Número de Documento</mat-label>
+                    <input matInput  formControlName="numeroDoc">
+                  </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field>
+                    <mat-label>Fecha de Nacimiento</mat-label>
+                    <input matInput  formControlName="fechaNac">
+                  </mat-form-field>
+            </div>
+            <div class="flex">
+                <mat-form-field>
+                    <mat-label>Fecha de Ingreso</mat-label>
+                    <input matInput  formControlName="fechaIngreso">
+                  </mat-form-field>
+            </div>
+    
+            <!--<div class="flex">
+                <button mat-flat-button color="primary" (click)="guardar()">Guardar</button>
+                <button mat-flat-button color="warn" (click)="volver()" style="margin-left: 8px;">Volver</button>
+            </div>-->
+            <mat-dialog-actions>
+                <button mat-flat-button color="primary" (click)="guardar()">Guardar</button>
+                <button mat-flat-button color="warn" (click)="volver()" style="margin-left: 8px;">Volver</button>
+            </mat-dialog-actions>
+    
+        </form>
+    
+    </div>
+</mat-dialog-content>
